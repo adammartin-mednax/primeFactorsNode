@@ -19,3 +19,7 @@ test('prime factors of 4 are 2 and 2', () => {
 test('prime factors of 6 are 2 and 3', () => {
   expect(primeFactors(6)).toStrictEqual([2, 3]);
 });
+
+test('prime factors of 8 are 2, 2, and 2', () => {
+  expect(primeFactors(8)).toStrictEqual([2, 2, 2]);
+});
