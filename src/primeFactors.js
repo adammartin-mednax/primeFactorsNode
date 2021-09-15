@@ -3,9 +3,8 @@ function primeFactors(suppliedNumber) {
   let primes = [];
   let candidate = 2;
   while(number > 1) {
-    while(number % candidate === 0) {
+    for(candidate; number % candidate === 0; number /= candidate) {
       primes.push(candidate);
-      number /= candidate;
     }
     candidate += 1;
   }
