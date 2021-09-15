@@ -9,9 +9,6 @@ function primeFactors(suppliedNumber) {
     }
     candidate += 1;
   }
-  if(number > 1){
-    primes.push(number);
-  }
   return primes;
 }
 
